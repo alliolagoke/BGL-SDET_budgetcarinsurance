@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Before you Begin on Welcome Page",
+        "description": "",
+        "id": "welcome-page;before-you-begin-on-welcome-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the Welcome page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I enter following values in welcome screen",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Value"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "FirstName",
+                  "BGL"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Surname",
+                  "Pegasus"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "DateOfBirthDay",
+                  "01"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "DateOfBirthMonth",
+                  "01"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "DateOfBirthYear",
+                  "1970"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "HouseName",
+                  "Pegasus House"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "PostCode",
+                  "PE2 6YS"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "VehicleRegistration",
+                  "MV05LPU"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I click continue button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I should see error message \"Please correct errors marked with\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@home"
+          }
+        ]
+      }
+    ],
+    "name": "Welcome Page",
+    "description": "As a user \r\nI need to provide my personal details \r\nSo that I can navigate to the next page",
+    "id": "welcome-page",
+    "keyword": "Feature",
+    "uri": "com/budgetcarinsurance/config/WelcomePage.feature"
+  }
+]
